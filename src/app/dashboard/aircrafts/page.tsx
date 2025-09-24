@@ -92,7 +92,6 @@ export default function AircraftsPage() {
                     <TableHead className="w-20">Imagen</TableHead>
                     <TableHead>Modelo</TableHead>
                     <TableHead>Matrícula</TableHead>
-                    <TableHead className="text-center">Capacidad</TableHead>
                     <TableHead className="text-center">Estado</TableHead>
                     <TableHead>Último Mantenimiento</TableHead>
                     <TableHead className="text-right">Horas de Vuelo</TableHead>
@@ -118,9 +117,7 @@ export default function AircraftsPage() {
                       <TableCell className="font-mono text-sm">
                         {aircraft.registration}
                       </TableCell>
-                      <TableCell className="text-center">
-                        {aircraft.capacity}
-                      </TableCell>
+
                       <TableCell className="text-center">
                         <Badge variant={getStatusBadgeVariant(aircraft.status)}>
                           {aircraft.status}
