@@ -119,7 +119,7 @@ export default function AircraftsPage() {
                         {aircraft.registration}
                       </TableCell>
                       <TableCell className="text-center">
-                        {aircraft.capacity} pax
+                        {aircraft.capacity}
                       </TableCell>
                       <TableCell className="text-center">
                         <Badge variant={getStatusBadgeVariant(aircraft.status)}>
