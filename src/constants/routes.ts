@@ -35,7 +35,7 @@ export enum Routes {
   Members = '/dashboard/settings/organization/members',
   Billing = '/dashboard/settings/organization/billing',
   Developers = '/dashboard/settings/organization/developers',
-
+  Aircrafts = '/dashboard/aircrafts',
   Invitations = '/invitations',
   InvitationRequest = '/invitations/request',
   InvitationAlreadyAccepted = '/invitations/already-accepted',

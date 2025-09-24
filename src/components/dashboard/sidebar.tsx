@@ -45,10 +45,10 @@ export function Sidebar({ profile }: SidebarProps): React.JSX.Element {
         style={{ width: sidebarWidth, maxWidth: sidebarWidth }}
       >
         {/* Decorative background elements */}
-        <div className="absolute inset-0 bg-gradient-to-br from-blue-500/5 via-purple-500/5 to-pink-500/5" />
+        <div className="absolute inset-0 bg-gradient-to-br from-yellow-500/5 via-orange-500/5 to-orange-500/5" />
         <div className="absolute top-0 left-0 w-full h-32 bg-gradient-to-b from-white/20 to-transparent" />
-        <div className="absolute -top-10 -right-10 w-32 h-32 bg-gradient-to-br from-blue-400/10 to-purple-400/10 rounded-full blur-2xl" />
-        <div className="absolute -bottom-10 -left-10 w-24 h-24 bg-gradient-to-tr from-pink-400/10 to-orange-400/10 rounded-full blur-xl" />
+        <div className="absolute -top-10 -right-10 w-32 h-32 bg-gradient-to-br from-yellow-400/10 to-orange-400/10 rounded-full blur-2xl" />
+        <div className="absolute -bottom-10 -left-10 w-24 h-24 bg-gradient-to-tr from-orange-400/10 to-orange-400/10 rounded-full blur-xl" />
 
         {/* Content */}
         <div className="relative z-10 flex h-full flex-col gap-4">
@@ -111,10 +111,10 @@ function SidebarHeader({
       {showLogo && (
         <div className="flex items-center gap-2 group">
           <div className="relative">
-            <PiAirplaneTiltBold className="size-6 text-blue-600 animate-pulse" />
+            <PiAirplaneTiltBold className="size-6 text-yellow-600 animate-pulse" />
             <div className="absolute inset-0 bg-blue-400/20 rounded-full blur-sm animate-ping" />
           </div>
-          <span className="text-lg font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent animate-gradient-x">
+          <span className="text-lg font-bold bg-gradient-to-r from-orange-800 via-yellow-600 to-yellow-700 bg-clip-text text-transparent animate-gradient-x">
             {AppInfo.APP_NAME || 'FlightAccess'}
           </span>
         </div>

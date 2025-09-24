@@ -4,6 +4,7 @@ import {
   CreditCardIcon,
   HomeIcon,
   LockKeyholeIcon,
+  PlaneIcon,
   SettingsIcon,
   StoreIcon,
   UserIcon,
@@ -19,6 +20,11 @@ export const mainNavItems: NavItem[] = [
     title: 'Inicio',
     href: Routes.Home,
     icon: HomeIcon
+  },
+  {
+    title: 'Aviones',
+    href: Routes.Aircrafts,
+    icon: PlaneIcon
   },
 
   {
